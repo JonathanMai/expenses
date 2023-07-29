@@ -98,6 +98,6 @@ const styles = StyleSheet.create({
     marginBottom: 50,
     fontSize: normalizeText(18),
   },
-  buttonsContainer: {alignItems: 'center'},
+  buttonsContainer: {alignItems: 'center', paddingBottom: 20},
   deleteButton: {marginVertical: 20},
 });

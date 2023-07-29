@@ -57,7 +57,11 @@ const FilterModal = () => {
         <Text style={styles.title}>Filters</Text>
       </View>
       <ExpensesInputs expense={filter} setExpense={setFilter} />
-      <ActionButton label={'Save'} onPress={handlePress} />
+      <ActionButton
+        style={styles.actionButton}
+        label={'Save'}
+        onPress={handlePress}
+      />
     </Modal>
   );
 };
@@ -82,4 +86,5 @@ const styles = StyleSheet.create({
     left: 15,
     top: 0,
   },
+  actionButton: {marginBottom: 20},
 });
